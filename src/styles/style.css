@@ -1,3 +1,42 @@
-input {
-    padding: 10px;
+* {
+    transition: ease 0.3s;
+}
+.main-wrapper {
+    margin-top: 100px;
+    padding: 20px;
+    text-align:center;
+    font-family: "Avenir Next W1G", serif ;
+    border: dotted black 1px;
+    background-color:#ffef96;;
+}
+.heading {
+    color: #50394c;
+}
+.tasks-table {
+    text-align:center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #d6cbd3;
+}
+.tasks-table td {
+    padding:10px;
+    border: solid gray 1px;
+
+}
+.addTaskButton {
+    background-color:#50394c;
+    color: white;
+    width:100px;
+    height:50px;
+    border:solid white  1px;
+}
+.addTaskButton:hover{
+    color:#a2b9bc;
+}
+.form-wrap input {
+   margin: 5px;
+}
+.visible {
+    display:none;
 }
