@@ -2,8 +2,6 @@ import React, {useState} from 'react';
 import './styles/style.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import envelope from './media/envelope.png'
-import plus from './media/plus.png'
-import remove from './media/remove.png'
 
 
 function TaskManager() {
@@ -40,7 +38,6 @@ function TaskManager() {
             setCount(count + 1)
             setTasks([...tasks, {id: Date.now(), number: count, task: newTask, desk: newDesk}])
             localStorage.setItem('tasks', JSON.stringify({id: Date.now(), number: count, task: newTask, desk: newDesk}))
-            console.log({id: Date.now(), number: count, task: newTask, desk: newDesk})
             document.getElementById('form-wrapper').classList.toggle('visible')
         }
         else {

@@ -30,5 +30,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This is a test task manager.<br> Options of this programm: creat tasks, delete tasks.<br> Technologies:  html, css, js, React, bootstrap.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorIvanovBR/Task-Manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorIvanovBR/Task-Manager/issues"
+  },
+  "homepage": "https://github.com/IgorIvanovBR/Task-Manager#readme"
 }
